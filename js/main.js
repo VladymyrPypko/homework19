@@ -1,7 +1,7 @@
 const size = parseInt(prompt('Введите число, которое определит длину массива:', 10));
 const topRightCornerValue = parseInt(prompt('Введите число для элемента массива вверху справа:', 7));
-const userRow = parseInt(prompt('Введите номер строки для подсчета ее суммы (начиная с 0):', 3));
-const userColumn = parseInt(prompt('Введите номер столбца для подсчета его суммы (начиная с 0):', 5));
+const userRow = parseInt(prompt('Введите номер строки для подсчета ее суммы:', 3) + 1);
+const userColumn = parseInt(prompt('Введите номер столбца для подсчета его суммы:', 5) + 1);
 
 // Генерация матрицы с элементом вверху справа, который указал пользователь
 function createMatrix(size, topRightCornerValue){
